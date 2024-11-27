@@ -1,0 +1,223 @@
+/* Сброс стилей */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.6;
+  width: 100%;
+  max-width: 2420px;
+  margin: 0 auto;
+  height: auto;
+}
+
+/* Шапка */
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+.header {
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.header .logo {
+  margin-right: 320px;
+}
+.header .navigation ul {
+  font-size: 16px;
+  list-style: none;
+  display: flex;
+  gap: 200px;
+}
+
+.header .navigation a {
+  color: #e6e6e6;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.header .navigation a:hover {
+  text-decoration: underline;
+}
+
+/* Герой-секция */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 283px;
+  padding-top: 100px;
+}
+.hero-content {
+  display: flex;
+  flex-direction: column;
+}
+.hero h1 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #252525;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  margin-bottom: 10px;
+}
+
+.hero p {
+  width: 321px;
+  font-size: 24px;
+  color: #252525;
+  margin-bottom: 50px;
+}
+
+.hero button {
+  width: 184px;
+  height: 58px;
+  background-color: rgba(0, 0, 0, 0.8);
+  font-size: 20px;
+  color: #f2f2f2;
+  border: none;
+  border-radius: 26px;
+  cursor: pointer;
+}
+
+.hero button:hover {
+  background: #0056b3;
+}
+.hero img {
+  object-fit: cover;
+  margin-left: 250px;
+}
+/* Особенности */
+.features {
+  padding: 283px;
+}
+h2 {
+  font-size: 42px;
+  font-weight: 500;
+  margin-bottom: 52px;
+}
+.features-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+}
+.features-content img {
+  width: 300px;
+  height: auto;
+  object-fit: cover;
+}
+.features-text {
+  width: 500px;
+  margin-left: 80px;
+  margin-top: 80px;
+  font-size: 20px;
+  color: #000;
+}
+.features-text ul {
+  margin-top: 50px;
+  margin-left: 20px;
+}
+/* Аксессуары */
+.accessories {
+  padding-left: 283px;
+}
+.accessories-content {
+  display: flex;
+  text-align: center;
+}
+.accessories-item {
+  margin-left: 100px;
+  margin-bottom: 150px;
+  margin-top: 80px;
+  font-size: 22px;
+}
+.accessories-item p {
+  width: 356px;
+  margin-bottom: 50px;
+}
+/* Где купить? */
+.where-to-buy {
+  padding-left: 283px;
+}
+.where-to-buy-content {
+  background-image: url(/images/vecteezy.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+  width: 70%;
+  height: 500px;
+  overflow: hidden;
+  margin-left: 50px;
+}
+.where-to-buy-overlay p {
+  font-size: 20px;
+  margin-top: 120px;
+  margin-left: 150px;
+}
+.where-to-buy-overlay button {
+  width: 269px;
+  height: 58px;
+  border: none;
+  border-radius: 26px;
+  font-size: 20px;
+  color: #f2f2f2;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 100px;
+  margin-left: 350px;
+  cursor: pointer;
+}
+.where-to-buy-overlay button:hover {
+  background: #444b51;
+}
+/* Подвал */
+.footer {
+  background-color: rgba(0, 0, 0, 0.8);
+  margin-top: 50px;
+  color: #e6e6e6;
+  height: 200px;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.footer-logo {
+  margin-left: 50px;
+  margin-top: 80px;
+}
+.footer-links {
+  margin-top: 30px;
+  margin-left: 100px;
+}
+.footer-links ul li {
+  list-style: none;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+span {
+  color: #e1ec09;
+  text-decoration: underline;
+}
+a {
+  color: #e6e6e6;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+a:hover {
+  text-decoration: underline;
+  color: #e1ec09;
+}
+.footer-contact {
+  margin-top: 60px;
+  margin-right: 100px;
+}
